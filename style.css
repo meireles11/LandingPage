@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+.descricao {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.capa {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.opinioes {
+  margin: 30px 0;
+}
+
+.opinioes blockquote {
+  background: #eee;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid #007bff;
+}
+
+.formulario {
+  margin-top: 30px;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
