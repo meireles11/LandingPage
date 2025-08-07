@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Titulo do livro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Titulo do livro</h1>
+    <p class="descricao">Descrição do livro</p>
+
+    <img src="capa.jpg" alt="Capa do Livro" class="capa">
+
+    <div class="opinioes">
+      <h2>O que dizem os autores:</h2>
+      <blockquote></blockquote>
+      <blockquote></blockquote>
+    </div>
+
+    <div class="formulario">
+      <h2>Frase apelativa para compra</h2>
+      <p>Preenche os dados abaixo e enviaremos o livro por email:</p>
+
+      <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+        <input type="text" name="nome" placeholder="Primeiro nome" required>
+        <input type="text" name="nome" placeholder="Segundo nome" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="telemovel" placeholder="Número de telemóvel" required>
+        <button type="submit">Submeter</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
