@@ -22,15 +22,21 @@
     <div class="formulario">
       <h2>Frase apelativa para compra</h2>
       <p>Preenche os dados abaixo e enviaremos o livro por email:</p>
-
-      <form action="https://formspree.io/f/xzzvkgbd" method="POST">
-        <input type="text" name="nome" placeholder="Primeiro nome" required>
-        <input type="text" name="nome" placeholder="Segundo nome" required>
+      
+      <form id="livroForm">
+        <input type="text" name="primeiro_nome" placeholder="Primeiro nome" required>
+        <input type="text" name="apelido" placeholder="Apelido" required>
         <input type="email" name="email" placeholder="Email" required>
         <input type="tel" name="telemovel" placeholder="Número de telemóvel" required>
         <button type="submit">Submeter</button>
       </form>
+
+      <div id="mensagem" style="display:none; margin-top: 1rem;">
+        Obrigado! Em breve receberás o livro no teu email.
+      </div>
+
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
