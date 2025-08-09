@@ -6,7 +6,7 @@ form.addEventListener("submit", function (e) {
 
   const dados = new FormData(form);
 
-  fetch("TROCAR_POR_URL_DO_SCRIPT", {
+  fetch("https://script.google.com/macros/s/AKfycby6VNl_isEJF3qs4W-K3-14Qc7l83itQRnYtT8-HLiXqFztmzPd68iTDiD07yPqgzWC/exec", {
     method: "POST",
     body: dados,
   })
